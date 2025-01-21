@@ -1,0 +1,42 @@
+:root {
+    --m-color: #d10a14;
+    --secondary-color: #f00511;
+    --accent1-color: #092abd;
+    --accent2-color: #031a85;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logo{
+    align-content: left;
+    max-width: 5rem;
+    right: 80%;
+}
+a {
+    padding: 14px;
+    text-decoration: none;
+    color: var(--m-color);
+}
+.hero-banner{
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+h1 {
+    font-size: 35px;
+    top: 10%;
+    position: absolute;
+    color: var(--secondary-color);
+    left: 30%;
+    background-color: rgba(0,0,0,0.5);
+}
+article {
+    position: absolute;
+    font-size: 28px;
+    top: 35%;
+    left: 20%;
+    max-width: 600px;
+    color: var(--accent1-color);
+}
